@@ -301,3 +301,34 @@ portfolio-item ul li{
     font-size: 18px;
     font-weight: 600;
 }
+portfolio-item ul li a:hover{
+    color: #00CF5D;
+}
+.portfolio-details ul{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 25px;
+}
+.portfolio-details ul li {
+    list-style: none;
+}
+.portfolio-details ul li a{
+    text-decoration: none;
+}
+.portfolio-details .p-one{
+    background-color: #00CF5D;
+    font-size: 20px;
+    font-weight: bold;
+    color: #D1D3D6;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+.portfolio-details .p-two{
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #D1D3D6;
+    padding: 6px 23px;
+    border-radius: 5px;
+    border: 2px solid #00CF5D;
+}
