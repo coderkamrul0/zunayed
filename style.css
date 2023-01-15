@@ -267,7 +267,7 @@ progress[value]::-webkit-progress-bar{
 .portfolio-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 30px;
 }
 portfolio-item{
     padding: 25px;
@@ -290,4 +290,14 @@ portfolio-item p{
     line-height: 26px;
     color: #DDDFE2;
 
+}
+portfolio-item ul{
+    display: flex;
+    gap: 20px;
+}
+portfolio-item ul li{
+    list-style: none;
+    color: #989ca1;
+    font-size: 18px;
+    font-weight: 600;
 }
