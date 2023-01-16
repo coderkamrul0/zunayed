@@ -402,9 +402,17 @@ portfolio-item ul li a:hover{
 footer{
     display: flex;
     justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+    
 
 }
 footer ul{
     display: flex;
     gap: 20px;
+}
+
+.footers{
+    background-color: #1D293A;
+    padding: 50px 0;
 }
